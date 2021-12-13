@@ -53,8 +53,8 @@ BuildRequires: libopenssl-devel
 BuildRequires: expat-devel
 BuildRequires: git
 
-%define base_version 1.18.0
-%define base_release 2%{?dist}.ngx
+%define base_version 1.20.2
+%define base_release 1%{?dist}
 
 %define bdir %{_builddir}/%{name}-%{base_version}
 
@@ -73,7 +73,7 @@ License: 2-clause BSD-like license
 BuildRoot: %{_tmppath}/%{name}-%{base_version}-%{base_release}-root
 BuildRequires: zlib-devel
 BuildRequires: pcre-devel
-Requires: nginx == %{?epoch:%{epoch}:}%{base_version}-%{base_release}
+Requires: nginx-more == %{base_version}-%{base_release}
 
 %description
 nginx sticky dynamic module.
