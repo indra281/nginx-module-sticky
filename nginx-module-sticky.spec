@@ -155,6 +155,9 @@ To enable this module, add the following to /etc/nginx/nginx.conf
 and reload nginx:
 
     load_module modules/ngx_http_sticky_module.so;
+ 
+Thanks for using sticky dynamic module! Feel free to send any feature 
+request to indrajeet.kumar@rigzone.com
 
 Please refer to the module documentation for further details:
 https://bitbucket.org/nginx-goodies/nginx-sticky-module-ng/
