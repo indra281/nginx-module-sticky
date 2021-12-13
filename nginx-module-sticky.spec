@@ -164,27 +164,10 @@ BANNER
 fi
 
 %changelog
-* Wed Nov 25 2020 Shigechika AIKAWA
-- sync w/ nginx-1.18.0-2 rpm.
+* Wed Dec 13 2021 Indrajeet Kumar
+- Adding support for Nginx more
 
-* Fri May 22 2020 Shigechika AIKAWA
-- sync w/ nginx-1.18.0.
+* Wed Jan 22 2021 Indrajeet Kumar
+- Bump up Nginx 1.20.1
 
-* Thu Aug 22 2019 Shigechika AIKAWA
-- sync w/ nginx-1.16.1
 
-* Thu Jun 27 2019 Shigechika AIKAWA
-- base version updated to 1.16.0
-
-* Wed Dec 05 2018 Shigechika AIKAWA
-- base version updated to 1.14.2
-
-* Tue Nov 13 2018 Shigechika AIKAWA
-- base version updated to nginx-1.14.1.
-
-* Mon May 07 2018 Shigechika AIKAWA
-- base version updated to nginx-1.14.0.
-
-* Mon Oct 23 2017 Shigechika AIKAWA
-- base on nginx-1.12.2
-- referenced nginx module spec files.
